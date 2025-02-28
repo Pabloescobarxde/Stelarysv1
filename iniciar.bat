@@ -1,1 +1,1 @@
-python skibidi.py
+python stelarys.py

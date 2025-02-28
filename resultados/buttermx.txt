@@ -1,8 +1,0 @@
-Resultados de la búsqueda para buttermx
-
-
-[90m[[32m#[90m] [[37mNickname[90m]: [37mbuttermx
-[90m[[32m#[90m] [[37mPassword[90m]: [[32m$SHA$3633fb005b904dda$46d9aa0095c2ad1eb9b70df836c5aa0c6b8d10406df0364dd7f01ebbc213c025[90m]
-[90m[[32m#[90m] [[37mSalt[90m]: [[32mNull[90m]
-[90m[[32m#[90m] [[37mIP[90m]: [[31m154.60.227.216[90m] [[37mUS[90m]
-[90m[[32m#[90m] [[37mInfo Servidor[90m]: [[37mnauticmc[90m] [[37mnauticmc.net[90m]

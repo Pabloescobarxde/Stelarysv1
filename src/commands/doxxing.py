@@ -1,25 +1,21 @@
-import shutil
-import os
-from colorama import init, Fore, Style
-# from src.commands.dox.comandos.dni import main
-from src.commands.dox.comandos.token.token_login import token_login
-from src.commands.dox.comandos.email_track import email_track
-# from src.commands.dox.comandos.rat_utilidades.personas_infectada import personas
-#from src.commands.dox.comandos.rat_utilidades.stelar_rat.stelar_personas.stelar_personas import stelar
-#from src.commands.dox.comandos.token.token_info import token_info
-from src.commands.dox.comandos.bot.invite_bot import invite_bot_id
-init()
+import shutil, os
+from colorama                                        import init, Fore, Style
+from src.utils.console                               import clear
+from src.commands.dox.comandos.token.token_login     import token_login
+from src.commands.dox.comandos.email_track           import email_track
+from src.commands.dox.comandos.bot.invite_bot        import invite_bot_id
+from src.utils.console                               import centrar_texto
+
+init(autoreset=True)
 
 
-# colores para el arsii
-R = Fore.RED  #rojo
-W = Fore.WHITE  #blanco
-GRAY = Fore.LIGHTBLACK_EX #gris 
-G = Fore.GREEN  #verde
-P = Fore.MAGENTA #purpura
+R = Fore.RED
+W = Fore.WHITE
+GRAY = Fore.LIGHTBLACK_EX
+G = Fore.GREEN
+P = Fore.MAGENTA
 
 def doxing():
-    
     doxing_letra = f"""
 {Fore.RED}  ██████ ▄▄▄█████▓▓█████  ██▓    ▄▄▄       ██▀███ ▓██   ██▓  ██████ 
 {Fore.RED}▒██    ▒ ▓  ██▒ ▓▒▓█   ▀ ▓██▒   ▒████▄    ▓██ ▒ ██▒▒██  ██▒▒██    ▒ 
@@ -70,22 +66,13 @@ def opciones2():
 {Fore.RED}   ├─ [{W}14{R}] {W}Token-Info{R}                                     │                                    │
 {Fore.RED}   └──────────────────────────────────────────────────────┴────────────────────────────────────┘
 """
-    clear_console() # llamar funcion desde def clear_console(): para poder limpiar la consola
-    doxing() # llama arsi
-    print(opciones2) # llama a las segundas opciones de menu
-
-# centrar texto del arsi
-def centrar_texto(texto):
-    terminal_ancho = shutil.get_terminal_size().columns
-    for linea in texto.split('\n'):
-        print(" " * max((terminal_ancho - len(linea)) // 2, 0) + linea) # separa el ancho de la terminal
-
-# Lipiar la consola (llamado solo para doxing menu)
-def clear_console():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    clear()
+    doxing()
+    print(opciones2)
 
 
-# barra comandos
+
+
 def menu_simplify():
     while True:
         opcion = input(Fore.RED +
@@ -102,14 +89,6 @@ def menu_simplify():
             elif opcion in ['email track', '4']:   
                 email_track()
 
-           # elif opcion == 'stelar infectados':    
-                #personas()
-
-           # elif opcion == 'stelar':    
-               # stelar()    
-
-           # elif opcion in ['token info', '7']:    
-              #  token_info()    
 
             elif opcion in ['invite bot', '15']:    
                 invite_bot_id()      
@@ -118,33 +97,30 @@ def menu_simplify():
                 opciones2()
 
             elif opcion == 'b':    
-                clear_console()
+                clear()
                 doxing()
                 opciones()
                 
             elif opcion == 'clear':
-                clear_console()  
+                clear()  
                 doxing()
 
             elif opcion == 'help':
-                clear_console()
+                clear()
                 doxing()
                 opciones()
 
             elif opcion == 'close':
-                clear_console()
+                clear()
                 break
 
             elif opcion == 'exit':
-                clear_console()
+                clear()
                 break    
-                
 
             else:
-                input(f"""
-{R}[{W}x{R}] {R}| {R}Opcion invalida revise {G}/help
-""")
-                clear_console()
+                input(f"""{R}[{W}x{R}] {R}| {R}Opcion invalida revise {G}/help""")
+                clear()
                 doxing()
                 opciones()
         except Exception as e:
@@ -153,6 +129,6 @@ def menu_simplify():
 
 
 if __name__ == "__main__":
-    clear_console() # llamar funcion desde def clear_console(): para poder limpiar la consola
-    doxing() # llama arsi
-    opciones() # llama a la opcion principal
+    clear()
+    doxing()
+    opciones()

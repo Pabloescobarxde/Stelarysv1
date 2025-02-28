@@ -1,60 +1,86 @@
-# Bienvenido a Stelarys 🚀
+<a id="top"></a>
 
-¡Hola! Soy Pabloy este es mi proyecto personal llamado **Stelarys**. Lo creé por que me gusta la programacion y me gustaria compatirlo con ustedes. Aquí encontrarás multiples comandos.
+#
 
-Este proyecto es solo el comienzo de algo más grande que quiero construir mientras sigo aprendiendo y mejorando mis habilidades.
+<h1 align="center">
+👀 Stelarys
+</h1>
 
-## ¿Qué es Stelarys?
+<p align="center"> 
+  <kbd>
+<img src="https://i.imgur.com/evMWsZe.png" width="328"></img>
+  </kbd>
+</p>
 
-Stelarys es una herramienta de pentesting de minecraft que la cual tiene muchos comandos muy interesantes. Está diseñado para pentesting o para mejorar tambien seguridad de tu servidor
-
-## Instalación 🛠️
-
-Para instalar y ejecutar el proyecto en tu máquina local, solo necesitas seguir estos pasos:
-
-1. Clona el repositorio:
-    ```bash
-    git clone  https://github.com/Pabloescobarxde/Stelarysv1.git
-    ```
-
-2. Navega a la carpeta del proyecto:
-    ```bash
-    cd  Stelarysv1
-    ```
-
-## Uso 
-
-Una vez que tengas el proyecto instalado, puedes ejecutarlo con el siguiente comando:
-
-python Skibidi.py
+<p align="center">
+<img src="https://img.shields.io/github/last-commit/Pabloescobarxde/Stelarysv1?style=flat">
+<img src="https://img.shields.io/github/stars/Pabloescobarxde/Stelarysv1?color=brightgreen">
+<img src="https://img.shields.io/github/forks/Pabloescobarxde/Stelarysv1?color=brightgreen">
+</p>
 
 
+## 🌐 〢 Content
 
+- [📁 Instalación](#install)
+- [🔍 ¿Qué es Stelarys?](#whatis)
+- [📜 License](#license)
+- [⚠️ Note](#note)
+<a id="install"></a>
 
+---
 
-MIT License
+### 📁  〢 Instalación
 
-Copyright (c) 2025 Pablo Herrera STELARYS
+> Deberás instalar [Python](https://www.python.org/downloads/release/python-3110/) `(la versión 3.11 no es la única funcional, pero recomendada.)`
 
-Por la presente se concede permiso, sin costo alguno, a cualquier persona que obtenga una copia
-de este software y los archivos de documentación asociados (el "Software"), para usarlo, copiarlo, modificarlo, fusionarlo, publicarlo, distribuirlo, sublicenciarlo y/o vender copias del Software, y permitir a las personas a las que se les proporcione el Software hacer lo mismo, sujeto a las siguientes condiciones:
+> [!IMPORTANT]
+> ***MUY IMPORTANTE***: Cuando instales Python, deberás pulsar **"add pip to path"** esto hará que puedas usar pip desde el cmd sin tener que especificar la ruta.
 
-1. El aviso de copyright anterior y este aviso de permiso deben incluirse en todas las copias o partes sustanciales del Software.
-2. El nombre del titular de los derechos de autor y los colaboradores no pueden ser utilizados para promocionar derivados del Software sin un permiso previo por escrito.
+> Una vez instalado Python, tendrás dos opciones:
+> + Puedes instalar [Git Windows](https://git-scm.com/downloads/win) o [Git Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+> + Puedes descargar el ZIP del reposititorio directamente. Pulsa en el botón **"Code"** y luego **"Download ZIP"**.
 
-EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO, PERO NO LIMITÁNDOSE A GARANTÍAS DE COMERCIABILIDAD, APTITUD PARA UN PROPÓSITO PARTICULAR E INFRACCIÓN. EN NINGÚN CASO EL AUTOR O LOS TITULARES DEL DERECHO DE AUTOR SERÁN RESPONSABLES DE NINGÚN RECLAMO, DAÑO O OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O DE OTRA ÍNDOLE, QUE SURJAN DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.
+> [!NOTE]
+> Si has instalado Git, puedes usar `git clone https://github.com/Pabloescobarxde/Stelarysv1.git` para clonar el repositorio.
+ 
+> Si has clonado el repositorio, usa `cd Stelarysv1` para moverte hacia la ruta.
+> ¿Has descargado el ZIP? Deberás extraer el ZIP con todos sus contenidos.
 
-### Reconocimientos y Atribuciones
-Si utilizas o distribuyes este proyecto, por favor asegúrate de dar el crédito adecuado al autor original según las normas de la licencia MIT.
+> [!CAUTION]
+> Si ejecutas archivos dentro del ZIP, es posible que no puedas usar la herramienta
+> ¿Por qué? El código usa archivos dentro de carpetas para hacer el mantenimiento más facil, si lo ejecutas desde el ZIP, no podrá acceder a esos archivos.
 
-### Uso Comercial
-Este software puede ser utilizado para proyectos comerciales, pero debes respetar los términos de la licencia y asegurarte de que el aviso de copyright esté presente en cualquier distribución del software.
+> Para ejecutar Stelarys, usa `python stelarys.py` o `python3 stelarys.py`
+> Alternativamente, puedes usar el archivo `start.bat`.
 
-### Contribuciones
-Si deseas contribuir al proyecto, por favor sigue los lineamientos establecidos en el archivo `CONTRIBUTING.md` de este repositorio. Las contribuciones se consideran bajo la misma licencia MIT, y al realizar una contribución, otorgas los derechos necesarios para usar tu código bajo los términos de la licencia MIT.
+> ¿Faltan librerías? Instálalas con `pip install <nombre>`.
 
-### Exención de Responsabilidad
-Este proyecto es proporcionado "tal cual", sin ninguna garantía de ningún tipo. El autor no se hace responsable de los daños directos o indirectos que puedan surgir del uso de este software. El software es utilizado bajo tu propio riesgo.
+> [!TIP]
+> Las librerías están indicadas en el error del mensaje `No module named 'nombre de la librería aquí'`.
 
-### Contacto
-Si tienes preguntas sobre el uso de este software o necesitas más detalles, puedes ponerte en contacto con el autor al correo electrónico: pabloescobar@gmail.com.
+<a id="whatis"></a>
+
+---
+
+### 🔎 〢 ¿Qué es Stelarys?
+
+> Stelarys es una herramienta de pentesting de minecraft la cual tiene muchos comandos muy interesantes. Está diseñado para pentesting o para mejorar la seguridad de tu servidor.
+
+<a id="license"></a>
+
+---
+
+### 📜 〢 License
+
+By downloading or using this, you agree to the terms of the license found in the [LICENSE](https://github.com/Pabloescobarxde/Stelarysv1/blob/main/LICENSE) file.
+<a id="note"></a>
+
+---
+
+### ⚠️ 〢 Note
+
+I am not responsible for any damages this software may cause, or how this software is used. This software was made for personal education.
+
+> [!NOTE]
+> Créditos a [@pepitogrillo05_term](https://t.me/pepitogrillo05) por intentar reestructurar el código.
+

@@ -1,6 +1,3 @@
-## Ya no funcional le pusieron cludflare:(
-
-
 import os
 import json
 import random
@@ -136,7 +133,7 @@ class Command:
             os.makedirs("servidores")
 
         random_number = random.randint(1000, 9999)
-        file_name = f"servidores/{modalidad}_{random_number}.json"
+        file_name = f"others/servers/{modalidad}_{random_number}.json"
 
         with open(file_name, "w", encoding="utf-8") as file:
             json.dump(servidores, file, ensure_ascii=False, indent=4)
