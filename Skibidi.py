@@ -5,10 +5,10 @@ from colorama import init, Fore, Style
 from src.commands.entrada import Letra, skibidi
 
 
-# Inicializamos colorama
+
 init(autoreset=True)
 
-# Definimos los colores con secuencias de escape ANSI
+
 RED = "\033[31m"
 GREEN = "\033[32m"
 LIGHT_BLUE = "\033[94m"
