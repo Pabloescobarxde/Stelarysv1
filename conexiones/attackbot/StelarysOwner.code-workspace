@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../StelarysOwner"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "disabled"
+	}
+}
