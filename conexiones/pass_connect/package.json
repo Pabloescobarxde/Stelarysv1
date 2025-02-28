@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "mineflayer": "^4.26.0",
+    "moment": "^2.30.1",
+    "punycode": "^2.3.1"
+  }
+}
