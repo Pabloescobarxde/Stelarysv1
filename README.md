@@ -14,12 +14,12 @@ Para instalar y ejecutar el proyecto en tu máquina local, solo necesitas seguir
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tuusuario/stelarys.git
+    git clone  https://github.com/Pabloescobarxde/Stelarysv1.git
     ```
 
 2. Navega a la carpeta del proyecto:
     ```bash
-    cd stelarys
+    cd  Stelarysv1
     ```
 
 ## Uso 
